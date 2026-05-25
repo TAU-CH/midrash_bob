@@ -109,7 +109,26 @@ After a successful run you will find the following under `OUTPUT_DIR` (default: 
 
 ## 🗃️ Data
 
-*To be updated...*
+Arrange your dataset so that each **join cluster** (i.e. class) is a separate sub-folder, and each folder contains fragment images (`.jpg` / `.png`).
+
+```
+data/
+├── cluster_1/
+│   ├── fragment_001.jpg
+│   ├── fragment_002.jpg
+│   └── ...
+├── cluster_2/
+│   ├── fragment_010.jpg
+│   └── fragment_011.jpg
+├── cluster_3/
+│   └── fragment_020.png
+└── ...
+```
+
+- **Folder name** → treated as the ground-truth join label for evaluation.  
+- **Images inside** → individual manuscript fragment scans belonging to that join.
+
+Then point `BASE_DIR` in `src/config.py` to the parent directory that contains these cluster folders (see [Configure paths](#1-configure-paths) above).
 
 ## 📜 Citation
 
