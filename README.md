@@ -135,9 +135,12 @@ Then point `BASE_DIR` in `src/config.py` to the parent directory that contains t
 If you use this work in your research, please cite:
 
 ```bibtex
-@inproceedings{gogawale2026bob,
-  title={Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval},
-  author={Gogawale, Sharva and Grudka, Gal and Vasyutinsky-Shapira, Daria and Ventura, Omer and Kurar-Barakat, Berat and Dershowitz, Nachum},
-  year={2026}
+@InProceedings{Gogawale_2026_CVPR,
+    author    = {Gogawale, Sharva and Grudka, Gal and Vasyutinsky-Shapira, Daria and Ventura, Omer and Kurar-Barakat, Berat and Dershowitz, Nachum},
+    title     = {Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2026},
+    pages     = {1-9}
 }
 ```
